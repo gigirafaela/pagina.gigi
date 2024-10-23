@@ -1,7 +1,7 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #ff005da0;
-    --card-back-color: #f40066;
+    --card-front-color: #ffffffa0;
+    --card-back-color: #696969;
 }
 
 body {
@@ -63,7 +63,7 @@ body {
 
 .cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
-    background-color: rgba( 244 , 0, 102, 0.4);
+    background-color: rgba( 105 , 105 , 105, 0.3);
     border: 4px solid var(--card-front-color)
 }
 
